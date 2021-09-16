@@ -9,6 +9,7 @@ public class Main {
       int myMaxIntValue = Integer.MAX_VALUE;
       System.out.println("Integer Minimum Value = " + myMinIntValue);
       System.out.println("Integer Maximum Value = " + myMaxIntValue);
-      System.out.println("Busted MAX Value = " + myMaxIntValue + myMaxIntValue + myMinIntValue);
+      System.out.println("Busted MAX Value = " + (myMaxIntValue + myMaxIntValue + myMaxIntValue));
+      System.out.println("Busted MIN Value = " + (myMinIntValue - myMinIntValue - myMinIntValue - myMinIntValue));
     }
 }
